@@ -37,8 +37,6 @@ class TransactionsRepository extends Repository<Transaction> {
 
     const total = income - outcome;
 
-    // if total
-
     return { income, outcome, total };
   }
 }
